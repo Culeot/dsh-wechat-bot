@@ -25,7 +25,7 @@ await build({
   // Only react stays external (provided by the DSH web shell). schemastery
   // is BUNDLED — DSH web's module table has no factory for it.
   external: ['react', 'react/jsx-runtime'],
-  banner: { js: 'window.__ModuleLoader__.load({\n\tid: "dsh-weixin-ui",\n\tfactory: (require) => {\n\t\tvar module = { exports: {} };\n\t\tvar exports = module.exports;\n\t\tObject.defineProperty(exports, Symbol.toStringTag, { value: "Module" });\n' },
+  banner: { js: 'window.__ModuleLoader__.load({\n\tid: "dsh-wechat-bot",\n\tfactory: (require) => {\n\t\tvar module = { exports: {} };\n\t\tvar exports = module.exports;\n\t\tObject.defineProperty(exports, Symbol.toStringTag, { value: "Module" });\n' },
   footer: { js: '\n\t\treturn module.exports;\n\t}\n});\n' },
   logLevel: 'info',
 });

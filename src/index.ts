@@ -6,7 +6,7 @@
  */
 import { registerRpc } from './rpc.ts';
 
-export const name = 'weixin-ui';
+export const name = 'wechat-bot';
 export const inject = ['connection'];
 
 export function apply(ctx: any): void {

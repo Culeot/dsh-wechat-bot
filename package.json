@@ -1,5 +1,5 @@
 {
-    "name": "dsh-weixin-ui",
+    "name": "dsh-wechat-bot",
     "version": "0.1.0",
     "description": "WeChat bridge login UI for DeepSeek Harness: scan to log in the weixin-bot iLink account right from Settings.",
     "type": "module",
@@ -27,7 +27,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Culeot/dsh-weixin-ui.git"
+        "url": "git+https://github.com/Culeot/dsh-wechat-bot.git"
     },
     "peerDependencies": {
         "@deepseek-ai/cordis": "^4.0.1",
